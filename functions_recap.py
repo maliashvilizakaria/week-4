@@ -22,6 +22,7 @@ def car_description(model, year, features):
 
 
 def cars_desc(car):
+    print(add(5, 6))
     for field, values in car.items():
         for value in values:
             print(f"Your car's {field} is {value}.")
