@@ -26,18 +26,18 @@ greet_user('jesse')
 ```
 
 ## Steps to clone the project 
-1. Copy the url of the repository ending with .git (https://github.com/2019-spring/week4.git)
+1. Copy the url of the repository ending with .git (https://github.com/2019-Fall/week4.git)
 2. GitHub Desktop: 
     * Go to Current Repository
     * click on Add drop down
     * Clone Repository
     * click on URL tab
-    * paste the copied URL (https://github.com/2019-spring/week4.git)
+    * paste the copied URL (https://github.com/2019-Fall/week4.git)
     * choose the location from your local machine `C:\dev\` then click on Clone.
 
     Git Bash: navigate to the right directory `C:\dev\` and enter following:
   ```bash
-  git clone https://github.com/2019-spring/week4.git
+  git clone https://github.com/2019-Fall/week4.git
   ```
 
   3. [optional] Create your feature branch: 
