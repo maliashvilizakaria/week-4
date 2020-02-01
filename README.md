@@ -46,6 +46,30 @@ greet_user('jesse')
   ```
   4. Open the `C:\dev\week4` folder from your VS Code and start modifying the code.
 
+## Working with class file , get updates and make changes in your branch
+1. clone the repository from asotools
+```
+git clone <url>
+cd newrepo
+git checkout -b 'yourbranch'
+```
+2. make changes in your repository, local changes.
+3. Go to your github account create a new repository to save YOUR changes
+4. Get the URL of that repository from Github
+5. Set the your branch upstream to your Github repository that you just created.
+```
+git push --set-upstream  <url from your github repo>
+```
+6. To get he updates from asotoolsny repo switch to master branch and then git push
+```
+git checkout master
+git pull
+```
+7. to get new changes from updated master to your branch:
+```
+git rebase master
+```
+
 ## References
 
 * [Python Documentation - Modules](https://docs.python.org/3/tutorial/modules.html)
